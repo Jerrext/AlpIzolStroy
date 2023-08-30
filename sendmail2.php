@@ -7,11 +7,11 @@
 
   $mail = new PHPMailer(true);
   $mail->CharSet = 'UTF-8';
-  $mail->setLanuage('ru', 'phpmailer/language/');
+  $mail->setLanguage('ru', 'phpmailer/language/');
   $mail->IsHTML(true);
 
   //От кого письмо
-  $mail->setForm('info@site.com', 'АльпИзолСтрой');
+  $mail->setFrom('info@site.com', 'АльпИзолСтрой');
   //Кому отправить
   $mail->addAddress('admin@gmail.com');
   //Тема письма
