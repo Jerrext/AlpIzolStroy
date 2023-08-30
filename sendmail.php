@@ -11,9 +11,9 @@
   $mail->IsHTML(true);
 
   //От кого письмо
-  $mail->setForm('info@site.com', 'АльпИзолСтрой');
+  $mail->setForm('info@alp-izol-stroy.vercel.app', 'АльпИзолСтрой');
   //Кому отправить
-  $mail->addAddress('admin@gmail.com');
+  $mail->addAddress('fe.kolpakov@gmail.com');
   //Тема письма
   $mail->Subject = 'Письмо с сайта!';
 
